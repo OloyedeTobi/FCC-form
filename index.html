@@ -1,0 +1,92 @@
+<DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FCCform</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<div class="content">
+		<h1>
+			freeCodeCamp Survey Form
+		</h1>
+		<p>Thank you for taking the time to help us improve the platform</p>
+<form>
+	<div>
+	<label class="label">Name</label>
+		<input type="text" name="name" id="name" class="myInput" placeholder="Enter your name">
+	</div>
+	<div>
+	<label class="label" for="email">Email</label><br>
+	<input type="email" name="email" id="email" class="myInput" placeholder="Enter your Email">	
+</div>
+<div>
+	<label class="label" for="age">Age<small>(optional)</small></label><br>
+	<input type="number" name="age" id="age" class="myInput" placeholder="Age">
+</div>
+<div>
+    <label class="label" for="role">Which Option best describes your current role</label><br>
+    <input list="roles" name="role" placeholder="Select current role" class="myInput">
+    <datalist id="roles">
+    	<option value="Student">Student</option>
+    	<option value="Full time job"></option>
+    	<option value="Full time learner"></option>
+    	<option value="Prefer not to say"></option>
+    	<option value="Others"></option>
+  </datalist>
+</div>
+<div class="Select">
+	<label class="label" for="recommend">Would you recommend freeCodeCamp to a friend?</label><br>
+		<input type="radio" name="recommend" value="Definitely">
+		<label for="Definitely">Definitely</label><br>
+		<input type="radio" name="recommend" value="Yes">
+		<label for="Yes">Yes</label><br>
+		<input type="radio" name="recommend" value="No">
+		<label for="No">No</label><br>
+</div>
+<div class="Select">
+	<label class="label">What would you like to see improved?<small>(check all that apply)</small></label><br>
+	<input type="checkbox" name="improvements" value="Front-end projects">
+	<label>Front-end projects</label><br>
+	<input type="checkbox" name="improvements" value="Back-end projects">
+	<label>Back-end projects</label><br>
+	<input type="checkbox" name="improvements" value="Data Visualization">
+	<label>Data Visualization</label><br>
+	<input type="checkbox" name="improvements" value="Challenges">
+	<label>Challenges</label><br>
+	<input type="checkbox" name="improvements" value="Open Source Community">
+	<label>Open Source Community</label><br>
+	<input type="checkbox" name="improvements" value="Gitter help rooms">
+	<label>Gitter help rooms</label><br>
+	<input type="checkbox" name="improvements" value="Videos">
+	<label>Videos</label><br>
+	<input type="checkbox" name="improvements" value="City Meetups">
+	<label>City Meetups</label><br>
+	<input type="checkbox" name="improvements" value="Wiki">
+	<label>Wiki</label><br>
+	<input type="checkbox" name="improvements" value="Forum">
+	<label>Forum</label><br>
+	<input type="checkbox" name="improvements" value="Additional courses">
+	<label>Additional courses</label><br>
+
+</div>
+<div>
+	<label class="label" for="textarea">Any comments or suggestions?</label><br>
+	<textarea id="textarea" placeholder="Enter your comment here......" rows="7" class="myInput"></textarea>
+</div>
+
+<button>Submit</button>
+</form>
+
+	</div>
+
+
+</div>
+</body>
+</html>

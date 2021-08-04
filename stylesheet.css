@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color:#fff; 
+}	
+
+body{
+	background:rgba(0,0,255,0.45)url(success.jpg);
+	background-blend-mode: darken; 
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.container{
+	display: block;
+	justify-content: center;
+	margin: auto;
+	width: 50%;
+
+}
+form{
+	background:rgba(39,40,69,.8);
+   border-radius: 5px;
+	padding: 3em;
+
+}
+.myInput{
+	width: 100%;
+	padding: .3em;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	margin-bottom: 2em;
+	margin-top: 0.6em;
+}
+
+.content > h1 {
+	color: #fff;
+	font-weight: bolder;
+	font-size: 35px;
+	text-align: center;
+	padding: .8em;
+}
+
+.content > p {
+	font-weight: 100;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 1.5em;
+	font-family: 'Cormorant Upright', serif;
+}
+
+
+
+.select{
+	margin-bottom: 2em;
+}
+
+
+small{
+	font-size: 18px;
+	color: rgba(255,255,255,0.8);
+}
+
+button{
+	padding: .8em;
+	width: 100%;
+	color:#fff;
+	background: blue;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+button:hover{
+	color: #fff;
+	background: rgba(0,0,255,0.6);
+	border: 2px solid blue;
+
+}
+
+
+@media (max-width: 1024px){
+	.container{
+		min-width: 90%;
+	}
+}
